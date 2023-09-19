@@ -1,0 +1,13 @@
+[Unit]
+Description=Resource daemon to MQTT
+After=multi-user.target
+
+[Service]
+WorkingDirectory=/opt/StatMQTT
+User=nobody
+Type=idle
+ExecStart=/usr/bin/python3 /opt/StatMQTT/StatMQTT.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

@@ -1,10 +1,5 @@
-.. contents:: Table of Contents
 
-=======
-Summary
-=======
-
-StatMQTT: Cross-Platform Utility for System Metrics Reporting
+## StatMQTT: Cross-Platform Utility for System Metrics Reporting
 
 **StatMQTT** is a cross-platform utility for reporting system and processes
 metrics (CPU, memory, disks, network, smart disk data) to an MQTT broker.
